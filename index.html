@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Kronometre</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width,user-scalable=false">
+    <script type="text/javascript" src="./stopwatch.js"></script>
+    <script type="text/javascript" src="./saat.js"></script>
+  </head>
+  <body>
+
+    <div class="flex text-center items-center justify-center orta">
+      <div>
+        <div>
+            <div class="text-sm text-gray-400" id="zaman"></div>
+            <h1 class="text-7xl md:text-9xl font-bold text-gray-200" id="clock">00:00</h1>
+        </div>
+        <div class="flex items-center gap-3 flex-wrap justify-center mt-5">
+          <button class=" text-gray-200 rounded-2xl bg-white bg-opacity-5 hover:bg-opacity-20 duration-300 w-32 py-2" id="start-stop">Başlat</button>
+          <button class=" text-gray-200 rounded-2xl bg-white bg-opacity-5 hover:bg-opacity-20 duration-300 w-32 py-2" id="reset">Sıfırla</button>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
