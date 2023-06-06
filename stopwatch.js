@@ -69,7 +69,7 @@ function setupStopwatch() {
   function formatTime(timestamp) {
     var d = new Date(timestamp);
     
-    var hours = d.getMinutes();
+    var hours = d.getHours();
     if (hours < 10) {
       hours = "0" + hours;
     }
